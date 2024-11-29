@@ -1,0 +1,7 @@
+x <- pibnom(26,51,0.5)
+print(x)
+x<- seq(0.50,by=1)
+y<- dbinom(x,50,0.5)
+png(file=dbinorm.png)
+plot(x,y)
+dev.off()
